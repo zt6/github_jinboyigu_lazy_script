@@ -41,6 +41,7 @@ const Health = require('./jd/wfh/Health');
 const HealthShare = require('./jd/wfh/HealthShare');
 const HealthSign = require('./jd/wfh/HealthSign');
 const Earn = require('./jd/earn');
+const EarnAdvertPlugin = require('./jd/earn/AdvertPlugin');
 const Cash = require('./jd/cash');
 const CashApplet = require('./jd/cash/applet');
 const CashShare = require('./jd/cash/share');

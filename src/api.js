@@ -97,7 +97,7 @@ async function sendNotify({sendYesterdayLog = false, subjects = [], forceExit = 
   await mailer.send({
     subject: title, text: content,
   });
-  await serverChan.send(title, content);
+  // await serverChan.send(title, content);
   if (!forceExit) return;
   await sleep(60);
   process.exit();
